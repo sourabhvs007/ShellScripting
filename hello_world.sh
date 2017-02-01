@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Variable declaration in shell script and printing 
-
+clear;
 STRING="Hello World"
 echo $STRING
 
