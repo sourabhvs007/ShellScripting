@@ -31,3 +31,48 @@ echo ${a[0]} ${a[1]}  # will print the two parameters
 echo $@ #print all the paraters passed 
 
 echo $#  # to print the number of parametes passed 
+
+
+#for Loop for array of elements 
+
+array=('Hi' 'Bash' 'scripting' )
+elements=${#array[@]}
+
+for (( i=0;i<=$elements ;i++ )); do 
+	echo ${array[${i}]}
+done
+
+array1=('hello' 'world')
+num=${#array1[@]}
+
+for ((i=0;i<=$num;i++));do
+	echo ${array1[${i}]}
+done 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
